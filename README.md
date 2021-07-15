@@ -16,4 +16,3 @@ During the pandmeic is decided to use my spare to create am Ardunio sanitizer di
 
 
 
-{"mode":"full","isActive":false}
