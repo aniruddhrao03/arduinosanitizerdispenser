@@ -35,8 +35,8 @@ void loop() {
   else
   {
     digitalWrite(5, LOW);
-    Serial.print("Pump OFF");
+    Serial.print("Pump Off");
   
   }
-  delay(50);
+  delay(100);
 }
