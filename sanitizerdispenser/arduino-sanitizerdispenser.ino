@@ -1,5 +1,5 @@
-#define echoPin 2
-#define trigPin 3
+#define echoPin 1
+#define trigPin 2
 
 long duration;
 int distance;
