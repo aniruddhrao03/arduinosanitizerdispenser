@@ -10,6 +10,7 @@ void setup() {
   pinMode(5, OUTPUT);
   Serial.begin(9600);
 }
+
 void loop() {
  
   digitalWrite(trigPin, LOW);
@@ -22,7 +23,6 @@ void loop() {
   distance = duration * 0.034 / 2;
   Serial.print("Distance: ");
   Serial.print(distance);
-  Serial.println(" cm");
   if (distance<=3)
   {
     digitalWrite(5, HIGH);
@@ -38,5 +38,4 @@ void loop() {
     Serial.print("Pump Off");
   
   }
-  delay(100);
 }
